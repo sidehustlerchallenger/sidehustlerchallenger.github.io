@@ -41,6 +41,6 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe("Side Hustler Challenger");
+    expect(document.title).toBe('Side Hustler Challenger');
   });
 });
