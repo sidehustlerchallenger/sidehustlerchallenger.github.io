@@ -1,11 +1,9 @@
 import React from 'react';
-import Table from './Table';
-import data from '../../data/stats/youtubeStats';
+import YoutubeCalls from './YoutubeCalls';
 
 const YoutubeStats = () => (
   <>
-    <h3>Stats about the channel</h3>
-    <Table data={data} />
+    <YoutubeCalls />
   </>
 );
 
