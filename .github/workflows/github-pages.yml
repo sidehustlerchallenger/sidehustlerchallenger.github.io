@@ -64,6 +64,8 @@ jobs:
           retry npm run predeploy
         env:
           NODE_ENV: production
+          REACT_APP_APIKey: ${{ secrets.REACT_APP_YOUTUBE_CLIENT_ID }}
+          REACT_APP_APISecret: ${{ secrets.REACT_APP_CHANNEL_ID }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
