@@ -16,6 +16,7 @@ const Stats = () => (
           <h2>
             <Link to="/stats">Stats</Link>
           </h2>
+          <p>@TODO use google api to pull stats information instead of making them static</p>
         </div>
       </header>
       <YoutubeStats />
