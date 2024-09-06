@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Main from '../layouts/Main';
+import Adsense from '../components/Ads/Adsense';
 
 const Index = () => (
   <Main
@@ -17,6 +18,12 @@ const Index = () => (
         Source available{' '}
         <a href="https://github.com/sidehustlerchallenger/website">here</a>.
       </p>
+      <Adsense
+        client="ca-pub-1624894773021175" // Replace with your own AdSense client ID
+        slot="XXXXXXXXXX" // Replace with your AdSense slot ID
+        format="auto" // Ad format
+        responsive="true" // If you want responsive ads
+      />
     </article>
   </Main>
 );
